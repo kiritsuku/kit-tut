@@ -1,3 +1,0 @@
-#Einführung in die Objektorientierung
-
-

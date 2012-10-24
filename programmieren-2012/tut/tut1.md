@@ -47,7 +47,7 @@
 * Programmieren ist Teil der Orientierungsprüfung -> muss bis zum 3. Semester bestanden werden
 
 ###Sonstiges
-* [Graphische Prüfungsordnung](kit-tut/programmieren-2012/tut/pruefungsordnung.pdf)
+* [Graphische Prüfungsordnung](pruefungsordnung.pdf)
 * Abgabe der [Einverständniserklärung](https://studium.kit.edu/sites/vab/0xBCAF741C5EC2E7498A5A3CA436270F21/Vorlesungsunterlagen/2012-10-15_Einverst%C3%A4ndniserkl%C3%A4rung.pdf) (bis 02.11.12) für den Praktomaten
 * Anmeldung am [Praktomat](https://praktomat.info.uni-karlsruhe.de/praktomat_2012_WS/) (bis 02.11.12)
 * Anmeldung des [Übungsscheins](https://studium.kit.edu/meinsemester/Seiten/pruefungsanmeldung.aspx) (bis 31.03.12)
@@ -104,7 +104,7 @@ _Word oder Writer sind auch Editoren aber für uns gänzlich ungeeignet!_
 * [NetBeans](http://netbeans.org/)
 
 ##Einführung in die Objektorientierung
-[Link zum Tutorial](kit-tut/programmieren-2012/java-tutorial/einfuehrung-oo.md)
+[Link zum Tutorial](../java-tutorial/einfuehrung-oo.md)
 
 ##Codestyle
 Programmiert _sauber_ und _schön_, aber was ist das überhaupt?

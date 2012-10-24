@@ -2,9 +2,7 @@
 
 ##Tutorium
 
-0. [Tutorium 1](kit-tut/programmieren-2012/tut/tut1.md) (26.10.12)
-  0. [Organisatorisches](kit-tut/programmieren-2012/tut/tut1.md#organisatorisches)
-  0. [Einführung in die Objektorientierung](kit-tut/programmieren-2012/tut/tut1.md#einfuehrung####)
+0. [Tutorium 1](programmieren-2012/tut/tut1.md) (26.10.12)
 
 ##Java Tutorial
 0. Einführung in die Objektorientierung

@@ -87,7 +87,7 @@
 
 * Installation des [Java Development Kit (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html) ([Anleitung](http://docs.oracle.com/javase/7/docs/webnotes/install/index.html))
 
-* Die Datei `Test.java` anlegen und die Java-Klasse `Test` mit einem Editor erstellen (**muss gleich heißen wie die Datei!**)
+* Die Datei `Test.java` anlegen und die Java-Klasse `Test` mit einem Editor erstellen _(muss gleich heißen wie die Datei!)_
 
 * Compilierung mit `javac Test.java`
 

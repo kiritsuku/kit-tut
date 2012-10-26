@@ -576,8 +576,8 @@ class Rational implements Comparable<Rational> {
   private static final Map<String, Rational> cache = new HashMap<String, Rational>();
 
   /**
-   * Create a new Rational. Internally instances of Rational are cached, thus
-   * there is no new one created if one already exists.
+   * Create a Rational.valueOf. Internally instances of Rational are cached,
+   * thus there is no new one created if one already exists.
    * 
    * @param numerator
    *        the numerator
@@ -601,27 +601,19 @@ class Rational implements Comparable<Rational> {
     cache.put(r.toString(), r);
     return r;
   }
+  
+  /*
+   * I'm too lazy to add further documentation to remaining members. ;)
+   */
 
   public static Rational valueOf(int numerator) {
     return valueOf(numerator, 1);
   }
-
-  /**
-   * Create a new Rational.
-   * 
-   * @param numerator
-   *        the numerator
-   * @param denominator
-   *        the denominator
-   */
+  
   private Rational(int numerator, int denominator) {
     this.numerator = numerator;
     this.denominator = denominator;
   }
-
-  /*
-   * I'm too lazy to add further documentation to remaining members. ;)
-   */
 
   public int getNumerator() {
     return numerator;
@@ -632,21 +624,21 @@ class Rational implements Comparable<Rational> {
   }
 
   public Rational add(int i) {
-    return new Rational(numerator + i * denominator, denominator);
+    return Rational.valueOf(numerator + i * denominator, denominator);
   }
 
   public Rational add(Rational r) {
-    return new Rational(
+    return Rational.valueOf(
         numerator * r.denominator + r.numerator * denominator,
         denominator * r.denominator);
   }
 
   public Rational sub(int i) {
-    return new Rational(numerator - i * denominator, denominator);
+    return Rational.valueOf(numerator - i * denominator, denominator);
   }
 
   public Rational sub(Rational r) {
-    return new Rational(
+    return Rational.valueOf(
         numerator * r.denominator - r.numerator * denominator,
         denominator * r.denominator);
   }

@@ -4,7 +4,9 @@
 
 0. [Tutorium 1](programmieren-2012/tut/tut1.md) (26.10.12)
 0. [Tutorium 2](programmieren-2012/tut/tut2.md) (02.11.12)
+0. [Tutorium 3](programmieren-2012/tut/tut3.md) (09.11.12)
 
 ##Java Tutorial
 0. [Einführung in die Objektorientierung](programmieren-2012/java-tutorial/einfuehrung-oo.md)
 0. [Methoden und Konstruktoren](programmieren-2012/java-tutorial/methoden-konstruktoren.md)
+0. [Kontrollstrukturen](programmieren-2012/java-tutorial/kontrollstrukturen.md)

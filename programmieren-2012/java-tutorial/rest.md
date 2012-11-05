@@ -106,13 +106,13 @@ Prüfung ob Nenner gleich 0:
 class Requirements {
   public static void require(boolean requirement) {
     if (!requirement) {
-      throw new IllegalArgumentException("requirement failed");
+      throw new AssertionError("requirement failed");
     }
   }
   
   public static void require(boolean requirement, String message) {
     if (!requirement) {
-      throw new IllegalArgumentException("requirement failed:" + message);
+      throw new AssertionError("requirement failed:" + message);
     }
   }
 }

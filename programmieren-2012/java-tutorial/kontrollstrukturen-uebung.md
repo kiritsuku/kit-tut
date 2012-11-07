@@ -74,6 +74,7 @@ public class Exercise {
    */
   static int getDaysOfMonth(String month, int year) {
     // needs to be implemented
+    // Tip: Check http://docs.oracle.com/javase/7/docs/api/java/lang/String.html for documentation of String
     return 0;
   }
 

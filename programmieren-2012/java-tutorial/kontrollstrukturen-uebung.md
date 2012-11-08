@@ -3,7 +3,7 @@
  * Exercise to learn how if conditions and switch-case statements work. 
  */
 
-public class Exercise {
+class Exercise {
 
   public static void main(String[] args) {
     require(getMonthName(1).equals("January"), "1 is not January");
@@ -21,10 +21,15 @@ public class Exercise {
     require(getDaysOfMonth("Febuary", 1900) == 28, "February has 28 days in 1900");
     require(getDaysOfMonth("April", -1000) == 0, "April does not exist in -1000");
     require(getDaysOfMonth("Apil", 1800) == 0, "Month Apil does not exist");
+    
+    require(getDaysBetweenMonths(1900, -1, 15) == 0, "-1 and 12 are invalid month values");
+    require(getDaysBetweenMonths(2000, 5, 9) == 123, "There are 123 days between May and September in 2000");
+    require(getDaysBetweenMonths(2000, 1, 3) == 60, "There are 60 days between January and March in 2000");
+    require(getDaysBetweenMonths(1899, 1, 3) == 59, "There are 60 days between January and March in 1899");
 
     System.out.println("You got it!");
   }
-
+  
   static void require(boolean requirement, String message) {
     if (!requirement) {
       // Errors are not handled yet. Don't be worried, it works as it should. ;)
@@ -77,32 +82,24 @@ public class Exercise {
     // Tip: Check http://docs.oracle.com/javase/7/docs/api/java/lang/String.html for documentation of String
     return 0;
   }
-
-  /*
-   * ADDITIONAL TASK:
+  
+  /**
+   * Calculates the days between two months. Valid month values range from 1 for
+   * January to 12 for December. {@code startMonth} is inclusive,
+   * {@code endMonth} is exclusive.
    * 
-   * Implement the above tasks in a type safe and object oriented way with an enum.
-   * 
-   * To test if your implementation works, rewrite the test cases above in order
-   * that they check your implementation. 
+   * @param year
+   *        the year
+   * @param startMonth
+   *        the month calculation begins
+   * @param endMonth
+   *        the month calculation ends
+   * @return the sum of days of all month between two given months or {@code 0}
+   *         if the month values are invalid.
    */
-
-  enum Month {
-    // needs to be implemented
-    ;
-
-    String getName() {
-      return "";
-    }
-
-    boolean isLeapYear() {
-      return false;
-    }
-
-    int getDays() {
-      return 0;
-    }
+  static int getDaysBetweenMonths(int year, int startMonth, int endMonth) {
+    // needs to be implemented    
+    return 0;
   }
-
 }
 ```

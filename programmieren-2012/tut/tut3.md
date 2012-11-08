@@ -138,9 +138,6 @@ class Class {}
 ##Übungsaufgabe zu Kontrollstrukturen
 [Link zur Übung](../java-tutorial/kontrollstrukturen-uebung.md)
 
-##Schleifen
-Link zum Tutorial
-
 ##Das Wort zum Schluss
 - Checkstyle beachten!
 - Abgabetermin des 2. Übungsblattes: 19.11.12 13:00

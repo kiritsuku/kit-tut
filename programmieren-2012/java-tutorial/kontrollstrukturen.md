@@ -93,6 +93,20 @@ do {
 
 Führt eine while-Schleifen mindestens einmal aus.
 
+##for-Schleife
+
+```java
+// general form
+for (<start_value>; <condition>; <next_step>) {
+  <body>
+}
+
+// example
+for (int i = 0; i < 10; ++i) {
+  System.out.println(i);
+}
+```
+
 #Update für `Rational`
 
 Bessere Implementierung von `toString`:
@@ -137,5 +151,29 @@ public static Rational valueOf(int numerator, int denominator) {
 private Rational(int numerator, int denominator) {
   this.numerator = numerator;
   this.denominator = denominator;
+}
+```
+
+Berechnung des GGT:
+```java
+// Euclidean algorithm: http://en.wikipedia.org/wiki/Euclidean_algorithm
+int gcd(int a, int b) {
+  while (b != 0) {
+    int t = b;
+    b = a % b;
+    a = t;
+  }
+  return a;
+}
+```
+
+Benutzung des GGT:
+
+```java
+// in class Rational
+Rational(int numerator, int denominator) {
+  int g = gcd(Math.abs(numerator), Math.abs(denominator));
+  this.numerator = numerator / g;
+  this.denominator = denominator / g;
 }
 ```

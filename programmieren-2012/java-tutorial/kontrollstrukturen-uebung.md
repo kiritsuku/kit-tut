@@ -18,7 +18,7 @@ class Exercise {
     require(getDaysOfMonth("MaY", 2000) == 31, "May has 31 days in 2000");
     require(getDaysOfMonth("january", 1904) == 31, "May has 31 days in 1904");
     require(getDaysOfMonth("febRuary", 2000) == 29, "February has 29 days in 2000");
-    require(getDaysOfMonth("Febuary", 1900) == 28, "February has 28 days in 1900");
+    require(getDaysOfMonth("February", 1900) == 28, "February has 28 days in 1900");
     require(getDaysOfMonth("April", -1000) == 0, "April does not exist in -1000");
     require(getDaysOfMonth("Apil", 1800) == 0, "Month Apil does not exist");
     

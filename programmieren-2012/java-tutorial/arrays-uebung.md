@@ -24,7 +24,7 @@ class Exercise {
     
     int[] indices = {0,7,3,9,1};
     int[] elements = {11,5,8,4,7,4,15,6,18,3,5};
-    require(sum(indices, elements) == 33, "sum of elements must be 33");
+    require(sum(indices, elements) == 29, "sum of elements must be 29");
     require(sum(indices, new int[] {}) == 0, "sum with invalid indices must be 0");
     
     int[][] matrixA = {{9,8,7},{6,5,4},{3,2,1}};

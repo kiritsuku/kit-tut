@@ -4,7 +4,7 @@
 
 * Sie sollen uns helfen von der Funktionsweise der Maschine zu abstrahieren, indem die Funktionsweise der Realen Welt modelliert wird.
 
-* Vorteile von OO nicht sofort ersichtlich -> Geduld
+* Vorteile von OO nicht sofort ersichtlich → Geduld
 
 ##Beispiel: Modellierung einer Person
 ###Fragen, denen wir uns zu Beginn stellen müssen:

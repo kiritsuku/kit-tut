@@ -26,7 +26,7 @@
 * Finden relevanter Informationen
 
 ###Bei Fragen und Problemen?
-* Kommilitonen -> Tutor -> Übungsleiter -> Dozent
+* Kommilitonen → Tutor → Übungsleiter → Dozent
 
 * Forum im Praktomat
 
@@ -36,7 +36,7 @@
 
 * Programmierberatung
   * Jeden Dienstag und Mittwoch (15:45-17:15) im hinteren Teil der ATIS
-  * Andrang nicht vorhersehbar -> nicht bis kurz vor knapp mit dem Anliegen warten
+  * Andrang nicht vorhersehbar → nicht bis kurz vor knapp mit dem Anliegen warten
 
 ###Schon im [Praktomat](https://praktomat.info.uni-karlsruhe.de/praktomat_2012_WS/) angemeldet?
 * Haben überhaupt schon alle einen KIT-Account?
@@ -56,18 +56,18 @@
 ###Übungsblätter
 * sechs Übungsblätter insgesamt
 
-* 20 Punkte pro Übungsblatt -> max. 120 Punkte erreichbar
+* 20 Punkte pro Übungsblatt → max. 120 Punkte erreichbar
 
 * mind. 50% (60 Punkte) müssen für den Übungsschein erreicht werden
 
-* werden schnell deutlich anspruchsvoller -> viel Punkte zu Beginn sammeln
+* werden schnell deutlich anspruchsvoller → viel Punkte zu Beginn sammeln
 
 ###Die Sache mit dem Abschreiben...
-* Nicht erlaubt -> Schon bei **einmaligem** Nachweis erfolgt Ausschluss vom Übungsschein + Klausur
+* Nicht erlaubt → Schon bei **einmaligem** Nachweis erfolgt Ausschluss vom Übungsschein + Klausur
 
-* Automatische Plagiatsprüfung -> Also sehr gefährlich
+* Automatische Plagiatsprüfung → Also sehr gefährlich
 
-* Programmieren ist Teil der Orientierungsprüfung -> muss bis zum 3. Semester bestanden werden
+* Programmieren ist Teil der Orientierungsprüfung → muss bis zum 3. Semester bestanden werden
 
 ###Sonstiges
 * [Graphische Prüfungsordnung](pruefungsordnung.pdf)

@@ -24,7 +24,7 @@
 
 - Lösung oft einreichen, wenn ihr euch mit der Formatierung nicht sicher seit
 
-- Kann auch lokal auf eurem Rechner überprüft werden -> [Zukünftige Regelsätze](http://baldur.iti.uka.de/programmieren/)
+- Kann auch lokal auf eurem Rechner überprüft werden → [Zukünftige Regelsätze](http://baldur.iti.uka.de/programmieren/)
 
 #### [Java Code Conventions](http://www.oracle.com/technetwork/java/codeconv-138413.html) beachten
 - Wird auf den folgenden Übungsblättern auch von Checkstyle erwartet
@@ -67,7 +67,7 @@ int c;
 ```
 
 ####Logische Verknüpfungen benutzen
-- `&&` und `||` statt `&` und `|` -> Letztere nennen sich binäre Verknüpfungen
+- `&&` und `||` statt `&` und `|` → Letztere nennen sich binäre Verknüpfungen
 
 ##Javadoc
 

@@ -243,13 +243,13 @@ public static Rational valueOf(int numerator, int denominator) {
 
 Das vorliegende Beispiel hat noch einige Schwachstellen:
 
-* `Rational` wird nicht gekürzt, dies führt zu umständlichen Darstellungen (z.B. 9/9 anstatt 1/1 oder nur 1). Kann mit Abfragen/Schleifen behoben werden -> Berechnung des GGT und anschließende Kürzung von Nenner und Zähler
+* `Rational` wird nicht gekürzt, dies führt zu umständlichen Darstellungen (z.B. 9/9 anstatt 1/1 oder nur 1). Kann mit Abfragen/Schleifen behoben werden → Berechnung des GGT und anschließende Kürzung von Nenner und Zähler
 
 * Es ist noch nicht möglich verschiedene Instanzen von `Rational` miteinander zu vergleichen.
 
-* Es ist möglch 1/0 als gültiges `Rational` zu erstellen -> kann z.B. durch den Einsatz von Exceptions behoben werden
+* Es ist möglch 1/0 als gültiges `Rational` zu erstellen → kann z.B. durch den Einsatz von Exceptions behoben werden
 
-* Negative Nenner sind darstellbar -> Behebung durch Abfragen
+* Negative Nenner sind darstellbar → Behebung durch Abfragen
 
 * Über `Rational#valueOf` kann Caching eingefügt werden, das verhindert, dass unnötigerweise mehrere Instanzen eines unveränderlichen `Rational` existieren.
 

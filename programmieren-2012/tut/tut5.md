@@ -12,7 +12,7 @@ Eine IDE verfügt über eine Menge Features, die das Leben eines Entwicklers sta
 - Debugger
 
 - Erweiterungen über Plugins nachinstallieren
-  - Help → Install New Software → Add
+  - `Help → Install New Software → Add`
  
 ###Installation
 
@@ -28,11 +28,13 @@ Eine IDE verfügt über eine Menge Features, die das Leben eines Entwicklers sta
 
 ##Checkstyle
 
-- [Eclipse Plugin](http://eclipse-cs.sf.net/update/)
+- Das [Eclipse Plugin](http://eclipse-cs.sf.net/update/)
 
-- [JavaDoc Regelsatz](http://baldur.iti.uka.de/programmieren/javadoc-checks.xml)
-
-- [Whitespace Regelsatz](http://baldur.iti.uka.de/programmieren/whitespace-checks.xml)
+- Die [JavaDoc](http://baldur.iti.uka.de/programmieren/javadoc-checks.xml) und [Whitespace](http://baldur.iti.uka.de/programmieren/whitespace-checks.xml) Regelsätze für Checkstyle
+ - Regelsätze über `Window → Preferences → Checkstyle → New → Remote Configuration+Name+Location → Ok` einbinden
+ - Über `Window → Preferences → Checkstyle → Set as Default` kann ein Regelsatz ausgewählt werden, der standardmäßig angewandt wird.
+ - Über `Rechtsklick auf ein Projekt → Properties → Checkstyle → Main` kann die Option `Use simple configuration` deaktiviert werden. Nun ist es möglich mehrere Checkstyle Regelsätze gleichzeitig anzuwenden. Einfach im Main-Tab über `Add → File Set Name+Check Configuration` ein `File Set` anlegen, das den entsprechenden Regelsatz akzeptiert (für jeden Regelsatz muss ein neues `File Set` angelegt werden).
+ - Zu guter Letzt können die Checkstyle Regelsätze nun über `Rechtklick auf Klasse/Projekt → Checkstyle → Check Code with Checkstyle` angewandt werden oder gleich für jeden Speichervorgang über `Rechtsklick auf ein Projekt → Properties → Checkstyle → Main → Checkstyle active for this project` aktiviert werden.
 
 ##Levenshtein-Distanz
 
@@ -61,7 +63,7 @@ Der Abstand der beiden Strings ist 2.
 
 Ermöglicht die automatische Ausführung von Tests
 
-In Eclipse: Rechtsklick auf Projekt → Build Path → Add Libraries → JUnit → Finish (JUnit 4 auswählen)
+In Eclipse: Rechtsklick auf `Projekt → Build Path → Add Libraries → JUnit → Finish (JUnit 4 auswählen)`
 
 Beispiel:
 

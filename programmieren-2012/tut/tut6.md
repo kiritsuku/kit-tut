@@ -107,11 +107,24 @@ Faustregeln:
 - Debugausgaben möglichst nur für wichtige Einzelschritte
   - Nicht innerhalb einer geschachtelten Schleife
 
-##Sichtbarkeiten und Pakete
+##Pakete
+
+- Pakete strukturieren ein Program
+
+- Gängige Namenskonvention entspricht umgedrehten Domainnamen, z.B. `edu.kit.info`
+
+- Werden durch Verzeichnisse auf Festplatte repräsentiert
+
+##Sichtbarkeiten
+
+- Es gibt 4 verschiedene Sichtbarkeitsmodifizierer: `public`, `private`, `package-protected` und `protected`
+
+- [Sichtbarkeitstabelle](http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
 
 ##Einfach verkettete Liste
 
 [Beispiel-Implementierung](../java-tutorial/list-simple.md)
+
 [Test-Code](../java-tutorial/list-simple-test.md)
 
 ##Das Wort zum Schluss

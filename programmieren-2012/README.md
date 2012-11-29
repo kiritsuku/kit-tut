@@ -7,6 +7,7 @@
 0. [Tutorium 3](programmieren-2012/tut/tut3.md) (09.11.12)
 0. [Tutorium 4](programmieren-2012/tut/tut4.md) (16.11.12)
 0. [Tutorium 5](programmieren-2012/tut/tut5.md) (23.11.12)
+0. [Tutorium 6](programmieren-2012/tut/tut6.md) (30.11.12)
 
 ##Java Tutorial
 0. [Einführung in die Objektorientierung](programmieren-2012/java-tutorial/einfuehrung-oo.md)

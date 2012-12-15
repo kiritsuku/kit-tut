@@ -54,7 +54,7 @@ int[][] matrix;
 ```
 
 ```java
-char c = str.substring(x, x + 1)[0];
+char c = str.substring(x, x + 1).toCharArray()[0];
 
 // =>
 

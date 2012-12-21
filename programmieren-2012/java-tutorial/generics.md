@@ -72,8 +72,8 @@ Typparameter können nicht nur an Klassen, sondern auch an Methoden gesetzt werd
 
 ```java
 <T> String mkString(List<T> list) {
-    return list.mkString("List(", ", ", ")");
-  }
+  return list.mkString("List(", ", ", ")");
+}
 ```
 
 `T` ist hier nur innerhalb der Methode gültig.

@@ -1,6 +1,6 @@
 #Tutorium 9 (21.12.12)
 
-Quiz am Anfang:
+Quiz am Anfang (Was passiert? Kompiliert es? Was wird ausgegeben?):
 
 ```java
 public class Test {
@@ -63,6 +63,7 @@ Meine [Testklasse](blatt04-tests.md) hat die meisten Programme in die Knie gezwu
 
 ##Generics
 [Link zum Tutorial](../java-tutorial/generics.md)
+
 [Listenimplementierung mit Generics und Interfaces](../java-tutorial/list-generics.md) + [Tests](../java-tutorial/list-generics-test.md)
 
 ##Vielen Dank für eure Aufmerksamkeit!

@@ -98,6 +98,8 @@ public class ListTest {
 
     @Test
     public void iterator() {
+        /*
+        // simple form of iteration
         Iterator<Integer> iter = List.of(1, 2, 3, 4, 5).iterator();
 
         assertTrue(iter.hasNext());
@@ -106,6 +108,7 @@ public class ListTest {
             list.add(elem);
         }
         assertFalse(iter.hasNext());
+        */
         
         /*
         // alternative version of iteration
@@ -115,15 +118,11 @@ public class ListTest {
         }
         */
         
-        Iterable<Integer> list = List.of(1, 2, 3, 4, 5);
-        for (Integer i : list) {
-            System.out.println(i);
+        Iterable<Integer> l = List.of(1, 2, 3, 4, 5);
+        for (Integer i : l) {
+            list.add(i);
         }
         
-        int[] array = { 1, 2, 3, 4, 5 };
-        for (int i : array) {
-            System.out.println(i);
-        }
 
         assertEquals("IntList(1, 2, 3, 4, 5)", list.toString());
     }
@@ -149,4 +148,5 @@ public class ListTest {
         });
     }
 }
+
 ```

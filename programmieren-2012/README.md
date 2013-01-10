@@ -11,6 +11,7 @@
 0. [Tutorium 7](programmieren-2012/tut/tut7.md) (07.12.12)
 0. [Tutorium 8](programmieren-2012/tut/tut8.md) (14.12.12)
 0. [Tutorium 9](programmieren-2012/tut/tut9.md) (21.12.12)
+0. [Tutorium 10](programmieren-2012/tut/tut10.md) (11.01.13)
 
 ##Java Tutorial
 0. [Einführung in die Objektorientierung](programmieren-2012/java-tutorial/einfuehrung-oo.md)
@@ -20,3 +21,4 @@
 0. [Vererbung](programmieren-2012/java-tutorial/vererbung.md)
 0. [Interfaces](programmieren-2012/java-tutorial/interfaces.md)
 0. [Generics](programmieren-2012/java-tutorial/generics.md)
+0. [Entwicklung einer Shell](programmieren-2012/java-tutorial/entwicklung-shell.md)

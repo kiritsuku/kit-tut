@@ -1,10 +1,5 @@
 #Tutorium 12 (25.01.13)
 
-Quiz am Anfang (Kompiliert der Code? Wird er korrekt ausgeführt? Was wird ausgegeben?):
-
-```java
-```
-
 ##Häufige Fehler auf dem Übungsblatt
 
 ###Konstanten verwenden
@@ -459,7 +454,7 @@ public class Test {
 
 ###JRebel
 
-- JRebel ist das geilste Tool seit es Tools gibt!
+- JRebel ist eines der geilsten Tools seit es Tools gibt!
 
 - Plugin für die JVM um Bytecode zur Laufzeit austauschen zu können → Verbessert Entwicklungs-Test-Zyklus
 

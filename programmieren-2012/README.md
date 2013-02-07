@@ -15,6 +15,7 @@
 0. [Tutorium 11](tut/tut11.md) (18.01.13)
 0. [Tutorium 12](tut/tut12.md) (25.01.13)
 0. [Tutorium 13](tut/tut13.md) (01.02.13)
+0. [Tutorium 14](tut/tut14.md) (08.02.13)
 
 ##Java Tutorial
 0. [Einführung in die Objektorientierung](java-tutorial/einfuehrung-oo.md)
